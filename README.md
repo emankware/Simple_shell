@@ -43,7 +43,7 @@ Template to test output:
 
 $ ./hsh
 
-($) 
+($)
 
 hsh main.c shell.c
 
