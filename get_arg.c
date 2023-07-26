@@ -49,3 +49,4 @@ char *get_arg(char type, ...)
 	default:
 		return (NULL);
 	}
+}
