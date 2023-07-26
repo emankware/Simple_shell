@@ -84,7 +84,7 @@ int _strcmp_n(char *s1, char *s2, int n)
  */
 int _atoi(char *s)
 {
-	int k, tmp, len, mul = 1;
+	int k, n, tmp, len, mul = 1;
 
 	k = 0;
 	tmp = 0;
