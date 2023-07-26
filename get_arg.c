@@ -47,5 +47,5 @@ char *get_arg(char type, ...)
 	case 'R':
 		return (get_rot13(va_arg(params, char *)));
 	default:
-		return (NULL);/* Error */
+		return (NULL);
 	}
