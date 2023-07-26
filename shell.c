@@ -96,7 +96,7 @@ param_t *init_param(char **argv, char **env)
 		exit(-1);
 	}
 	for (r = 0; r < BUFFER_SIZE; r++)
-		params->buffer[i] = 0;
+		params->buffer[r] = 0;
 	params->args = malloc(sizeof(char *) * params->argsCap);
 	if (!(params->args))
 	{
